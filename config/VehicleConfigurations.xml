@@ -208,7 +208,12 @@ You can define the following custom settings:
 
     <!-- Harvesters -->
     <Vehicle name="hj6130"
-    disablePipeMovingToolCorrection = "true"
+            disablePipeMovingToolCorrection = "true"
+    />
+
+    <Vehicle name = "bigM450.xml"
+            lowerEarly = "true"
+            raiseLate = "true"
     />
 
     <!--vehicles\newHolland-->
@@ -344,6 +349,7 @@ You can define the following custom settings:
     <!--\vehicles\kuhn-->
     <Vehicle name="sw4014.xml"
              toolOffsetX = "-2.5"
+             baleCollectorOffset = "2.2"
              noReverse = "true"
     />
     <Vehicle name="kuhnDeltis1302.xml"
